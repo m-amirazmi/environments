@@ -2,13 +2,11 @@ module.exports = {
   apps: [
     {
       name: "burger-api",
-      cwd: "/home/amir/app/burger/api",
-      script: "npm start",
+      script: "cd /home/amir/app/burger/api && npm start",
     },
     {
       name: "node-test-api",
-      cwd: "/home/amir/app/node-test",
-      script: "npm start",
+      script: "cd /home/amir/app/node-test && npm start",
     },
   ],
 };
